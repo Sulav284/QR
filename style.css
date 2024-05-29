@@ -1,0 +1,165 @@
+ /* body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   overflow-x: hidden;
+ }
+
+ #menuButton {
+   font-size: 20px;
+   cursor: pointer;
+   background-color: #333;
+   color: white;
+   padding: 10px;
+   border: none;
+   position: fixed;
+   top: 5px;
+   left: 5px;
+ }
+
+ .side-menu {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: #333;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+    margin: 10px;
+ }
+
+ .side-menu a {
+   padding: 10px 15px;
+   text-decoration: none;
+   font-size: 25px;
+   color: white;
+   display: block;
+   transition: 0.3s;
+ }
+
+ .side-menu a:hover {
+   background-color: #575757;
+ }
+
+ .side-menu.open {
+   width: 150px;
+ } */
+
+html{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+   
+}
+body{
+   background-color: black;
+   
+   
+}
+
+.btn{
+   background-color: black;
+   color: white;
+   width: 65px;
+   border-radius: 5px;
+   font-size: 22px;
+   height: 30px;
+   padding-left: 6px;
+   position: fixed;
+   top: 5px;
+}
+.btn:hover{
+   background-color: #575757;
+   cursor: pointer;
+}
+
+#menu{
+   height: 100vh;
+   width: 0vh;
+   color: white;
+   position: fixed;
+   background-color: #270202;
+   border-radius: 5px;
+   margin: 30px auto auto 0px ;
+   transition: 0.6s;
+   /* margin-left: 5px; */
+   overflow-x: hidden;
+   /* top: 1.5rem; */
+   
+}
+
+#menu a{
+   display: block;
+   text-decoration: none;
+   font-size: 25px;
+   color: white;
+   padding: 10px 15px;
+   transition: 0.5s;
+   overflow: hidden;
+   margin
+   
+}
+
+
+
+#menu a:hover{
+   background-color: #575757;
+}
+
+#menu.open{
+   width: 120px;
+}
+#box{
+   height: 500px;
+   width: 500px;
+   background-color: white;
+   position: absolute;
+   top: 25%;
+   left: 25%;
+   border-radius: 10px;
+       /* display: flex; */
+
+}
+.fill{
+   margin :10px
+
+}
+#text{
+   /* margin-top: 20px; */
+   font-size: 25px;
+text-align: center;
+   color: purple;
+   margin: 20px auto 15px auto;
+}
+
+.fill input{
+   height: 30px;
+   width: 100%;
+   border: 1px solid #090128;
+   border-radius: 15px;
+   padding-left: 5px;
+   margin: 15px 10px 10px 0px;
+}
+button{
+   height: 40px;
+   border-radius: 5px;
+   width: 75px;
+   margin: 15px 15px auto 20px;
+   font-size: 20px;
+   width: 30%;
+   padding: 5px;
+   border-radius: 15px;
+   background-color: #ffffff;
+   border: 0px solid.01 purple ;
+   border-opacity: 0.1;
+}
+span{
+   font-size: 20px;
+   margin-bottom: 3px;
+}
+button:hover{
+   background-color: #6b005d;
+   color: white;
+}
+
